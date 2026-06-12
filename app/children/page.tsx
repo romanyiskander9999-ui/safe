@@ -3,7 +3,7 @@
 import Navbar from '@/components/common/Navbar';
 import { useDataStore } from '@/store/dataStore';
 import { Child } from '@/types';
-import { Settings, Shield, AlertCircle } from 'lucide-react';
+import { Settings, Shield } from 'lucide-react';
 
 export default function ChildrenManagement() {
   const { children } = useDataStore();
