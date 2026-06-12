@@ -11,6 +11,7 @@ export default function Navbar({ currentPage = 'home' }: NavbarProps) {
   const { user, logout } = useAuthStore();
 
   if (!user) return null;
+
   const navItems = [
     { id: 'home', label: 'الرئيسية', icon: Home },
     { id: 'reports', label: 'التقارير', icon: FileText },
@@ -18,6 +19,12 @@ export default function Navbar({ currentPage = 'home' }: NavbarProps) {
     { id: 'settings', label: 'الإعدادات', icon: Settings },
   ];
 
+  return (
+    <nav>
+      ...
+    </nav>
+  );
+}
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
