@@ -6,7 +6,7 @@ import { useDataStore } from '@/store/dataStore';
 import { Clock, Zap, Moon, AlertCircle } from 'lucide-react';
 
 export default function ScreenTimeSettings() {
-  const { getScreenTimeSettings, updateScreenTimeSettings } = useDataStore();
+const { getScreenTimeSettings } = useDataStore();
   const settings = getScreenTimeSettings('child-1');
   const [saved, setSaved] = useState(false);
 
