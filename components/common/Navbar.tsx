@@ -1,7 +1,7 @@
 'use client';
 
 import { useAuthStore } from '@/store/authStore';
-import { LogOut, Settings, Home, FileText, BookOpen } from 'lucide-react';
+import { LogOut, Settings, Home, FileText } from 'lucide-react';
 import Link from 'next/link';
 
 interface NavbarProps {
