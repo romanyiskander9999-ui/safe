@@ -1,7 +1,6 @@
 'use client';
 
-import { Block, Clock, FileText, Lightbulb } from 'lucide-react';
-
+import { Blocks } from 'lucide-react';
 export default function QuickActionsCard() {
   const actions = [
     { icon: Block, label: 'حظر تطبيق', color: 'bg-red-100 text-red-700' },
