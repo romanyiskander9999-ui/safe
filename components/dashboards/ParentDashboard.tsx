@@ -78,7 +78,7 @@ export default function ParentDashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Column - Main Cards */}
           <div className="lg:col-span-2 space-y-6">
-            <ScreenTimeCard children={children} />
+           <ScreenTimeCard>{children}</ScreenTimeCard>
             <AlertsCard />
           </div>
 
