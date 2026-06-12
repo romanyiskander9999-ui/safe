@@ -4,8 +4,7 @@ import { useState } from 'react';
 import Navbar from '@/components/common/Navbar';
 import RiskBadge from '@/components/common/RiskBadge';
 import { useDataStore } from '@/store/dataStore';
-import { Search } from 'lucide-react';
-
+import { Search, AlertTriangle } from 'lucide-react';
 export default function ContentFilter() {
   const { apps } = useDataStore();
   const [filter, setFilter] = useState<'all' | 'safe' | 'monitor' | 'blocked'>('all');
