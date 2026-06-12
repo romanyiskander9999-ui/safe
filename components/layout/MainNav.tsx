@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { Home, Zap } from "lucide-react";
 
 export default function MainNav() {
