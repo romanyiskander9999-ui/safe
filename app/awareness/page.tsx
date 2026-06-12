@@ -1,7 +1,7 @@
 'use client';
 
 import Navbar from '@/components/common/Navbar';
-import { BookOpen, CheckCircle, Clock, Award } from 'lucide-react';
+import { CheckCircle, Clock, Award } from 'lucide-react';
 
 export default function Awareness() {
   const lessons = [
