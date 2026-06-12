@@ -3,7 +3,7 @@
 import { Blocks } from 'lucide-react';
 export default function QuickActionsCard() {
   const actions = [
-    { icon: Block, label: 'حظر تطبيق', color: 'bg-red-100 text-red-700' },
+{ icon: Blocks, label: 'حظر تطبيق', color: 'bg-red-100 text-red-700' },
     { icon: Clock, label: 'تعديل الوقت', color: 'bg-blue-100 text-blue-700' },
     { icon: FileText, label: 'مشاركة التقرير', color: 'bg-green-100 text-green-700' },
     { icon: Lightbulb, label: 'درس توعية', color: 'bg-yellow-100 text-yellow-700' },
